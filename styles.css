@@ -1,0 +1,113 @@
+html, body{
+    height:100%;
+    margin:0;
+}
+  
+/* @-moz-document url-prefix() {
+    #flexible-content{
+         flex: 1;
+       }
+   } */
+
+.nav-ul-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:20px;
+    height:100%;
+
+}
+
+
+.top{
+    background-color:#FFDE03;
+    max-height: 100px;
+    width: 100%;
+    height:100%;
+    position:fixed;
+}
+
+.nav-item{
+padding:2em;
+list-style: none;
+font-family: 'Alfa Slab One', cursive;
+font-size: 1.2em;
+}
+
+.midsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   min-height:800px; 
+   height:100%;
+   background-color: #FF0266;
+   font-family: 'Audiowide', cursive;
+}
+
+
+.project-section{
+    /* padding-top:100px;
+    padding-left:30%;
+    padding-right:30%;
+    height:400px;
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap:30%;
+    background-color:#2196F3;
+    justify-content: space-evenly; */
+
+    padding-top:100px;
+    display:flex;
+    background-color:#E0E0E0;
+    justify-content: space-evenly;
+    min-height:800px;
+    flex-flow:row wrap;
+    
+}
+
+
+
+.projects{
+    margin-top:20px;
+    width: 200px;
+    height:200px;
+    background-color:#F44336;
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+   
+}
+
+.break{
+    background-color:none;
+    flex-basis:100%;
+}
+
+
+.about-section{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    height:800px;
+    background-color:#76FF03;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me{
+  align-self:center;
+  padding-bottom: 250px;
+  
+}
+
+.contact-container{
+    width:50%;
+}
+
+
+.btn{
+    float:left;
+    margin-top:20px;
+}
