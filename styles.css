@@ -105,7 +105,7 @@ h1 span:nth-child(6){
 }
 
 h1 span:nth-child(n+7){
-    animation-delay: 2.5s;
+    animation-delay: 3s;
 }
 
 
