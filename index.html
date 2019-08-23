@@ -54,11 +54,11 @@
 
                 <li class="nav-item"><a  href="#">Home</a></li>
                 
-                <li class="nav-item"><a  href="#">About</a></li>
+                <li class="nav-item"><a  href="#about-section">About</a></li>
 
-                <li class="nav-item"><a c href="#">Contact</a></li>
+                <li class="nav-item"><a c href="#contact-me">Contact</a></li>
 
-                <li class="nav-item"><a href="#">Projects</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
             </ul>
              
         
@@ -84,109 +84,102 @@
       
         <div class="projects-grid">
           <a
-            href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+            href="https://robbierao123.github.io/robbierao123-github.com/"
             target="_blank"
             class="project project-tile"
           >
             <img
               class="project-image"
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
+              src="/img/violinstore.PNG"
               alt="project"
             />
             <p class="project-title">
               <span class="code">&lt;</span>
-              Tribute Page
+             The Violin Store
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
           <a
-            href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+            href="#"
             target="_blank"
             class="project project-tile"
           >
             <img
               class="project-image"
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
+              src="/img/comingsoon.jpg"
               alt="project"
             />
             <p class="project-title">
               <span class="code">&lt;</span>
-              Random Quote Machine
+              
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
           <a
-            href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+            href="#"
             target="_blank"
             class="project project-tile"
           >
             <img
               class="project-image"
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png"
+              src="/img/comingsoon.jpg"
               alt="project"
             />
             <p class="project-title">
               <span class="code">&lt;</span>
-              JavaScript Calculator
+              
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
           <a
-            href="https://codepen.io/freeCodeCamp/full/mVEJag"
+            href="#"
             target="_blank"
             class="project project-tile"
           >
             <img
               class="project-image"
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg"
+              src="/img/comingsoon.jpg"
               alt="project"
             />
             <p class="project-title">
               <span class="code">&lt;</span>
-              Map Data Across the Globe
+              
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
           <a
-            href="https://codepen.io/freeCodeCamp/full/wGqEga"
+            href="#"
             target="_blank"
             class="project project-tile"
           >
             <img
               class="project-image"
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
+              src="/img/comingsoon.jpg"
               alt="project"
             />
             <p class="project-title">
               <span class="code">&lt;</span>
-              Wikipedia Viewer
+              
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
+
           <a
-            href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+            href="#"
             target="_blank"
             class="project project-tile"
           >
             <img
               class="project-image"
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png"
+              src="/img/comingsoon.jpg"
               alt="project"
             />
             <p class="project-title">
               <span class="code">&lt;</span>
-              Tic Tac Toe Game
+              
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
-        </div>
-      
-        <!-- <a
-          href="https://codepen.io/FreeCodeCamp/"
-          class="btn btn-show-all"
-          target="_blank"
-          >Show all<i class="fas fa-chevron-right"></i
-        ></a> -->
       </section>
       
 
@@ -197,24 +190,31 @@
 
 
  
-    <div class="about-section">
+    <div class="about-section" id="about-section">
 
       <div class="about-me"> 
         <h2 class="about-me-h2">About Me</h2>
-        <p class="about-paragraph">some text ..................................................
-          .......................................
+        <p class="about-paragraph">Coming Soon!
         </p>
       </div>
 
 
-      <div class="contact-container">
+      <div class="contact-container" id="contact-me">
           <h2>Contact Me</h2>
-          <p>I . .....................................................</p>
-          <form action="https://formspree.io/robbierao93@hotmail.com" method="POST">
+     
+          <!-- <form action="https://formspree.io/email@domain.tld" method="POST">
             <div class="form-group">
            
               <textarea id = "text-area"class="form-control" rows="5" name="message" placeholder="Text Message"  maxlength="150" minlength="5"></textarea>
-              <input type="submit" class="btn btn-info" value="Submit" id="submit-form" method="post">
+              <input type="submit" class="btn btn-info" value="Send" id="submit-form" method="post">
+            </div>
+          </form> -->
+
+          <form method="POST" action="https://formspree.io/robbierao93@hotmail.com">
+            <div class="form-group">
+            <input class = "email-box" type="email" name="email" placeholder="Your email" required>
+            <textarea id = "text-area"class="form-control" name="message" placeholder="Your Message" required></textarea>
+            <button class="btn btn-info" type="submit">Send Test</button>
             </div>
           </form>
         </div>

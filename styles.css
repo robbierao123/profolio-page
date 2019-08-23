@@ -64,8 +64,8 @@
    }
 
    section:before{
-       background:linear-gradient(to right,#f00,#f00
-       ,#f00,#f00,#ff0,#0ff);
+       background:linear-gradient(to right,#f00,yellow
+       ,green,blue,purple,red);
        mix-blend-mode:color;
        content:'';
        position:absolute;
@@ -358,4 +358,18 @@ font-size: 1.2em;
     transform: translateX(0);
     transition: transform 0.3s ease-out;
   }
-  
+
+   /* about-section, text area */
+
+  .email-box{
+      height:30px;
+      width:200px;
+      margin-top:50px;
+      margin-right:100%;
+      margin-bottom: 20px;
+
+  }
+
+  #text-area{
+      height:200px;
+  }
